@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <!-- FIXED: Changed width-device-width to width=device-width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>James Moranga Personal Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.
+    com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+I
+    YdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<!--loader animation-->
+<div th:replace="~{fragments/loader :: loader}"></div>
+
+<!--header-->
+<div th:replace="~{fragments/header :: site-header}"></div>
+
+
+
+<!--background shapes-->
+<div class="floating-shape shape-1"> </div>
+<div class="floating-shape shape-2"> </div>
+<div class="floating-shape shape-3"> </div>
+
+
+
+
+<!--custom script-->
+<script src="/js/script.js"></script>
+</body>
+</html>
